@@ -1,4 +1,4 @@
-package com.team.delivery.interceptor;
+package com.team.delivery.DTO.interceptor;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;

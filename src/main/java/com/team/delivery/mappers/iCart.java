@@ -1,4 +1,4 @@
-package com.team.delivery.mappers;
+package com.team.delivery.DTO.interceptor.mappers;
 
 import com.team.delivery.DTO.cartDTO;
 import org.apache.ibatis.annotations.Mapper;

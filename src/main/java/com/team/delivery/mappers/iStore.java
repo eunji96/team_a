@@ -1,4 +1,4 @@
-package com.team.delivery.mappers;
+package com.team.delivery.DTO.interceptor.mappers;
 import java.util.ArrayList;
 
 import com.team.delivery.DTO.StoreDTO;
@@ -13,5 +13,6 @@ public interface iStore {
 	ArrayList<StoreDTO> reviewlist(int sSeqno);
 	StoreDTO listMenuDetail(int menuSeqno,
 							int sSe);
-	
+	ArrayList<StoreDTO> bookinglist(int sSeqno);
+
 }
